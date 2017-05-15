@@ -1,0 +1,454 @@
+
+*************************************************************
+ Geant4 version Name: geant4-10-00-patch-03 [MT]   (31-October-2014)
+  << in Multi-threaded mode >> 
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+G4Material WARNING: duplicate name of material T_RuggRibbon
+G4Material WARNING: duplicate name of material Quartz
+%MSG-i PhysicsList:  (NoModuleName) pre-events
+You are using the simulation engine: QGSP_FTFP_BERT_EML 
+ Flags for EM Physics 1, for Hadronic Physics 1 and tracking cut 0   t(ns)= 500
+%MSG
+ New QGSP_FTFP_BERT physics list, replaces LEP with FTF/P for p/n/pi (/K?)  Thresholds: 
+    1) between BERT  and FTF/P over the interval 6 to 8 GeV. 
+    2) between FTF/P and QGS/P over the interval 12 to 25 GeV. 
+  -- quasiElastic was asked to be 1
+     Changed to 1 for QGS  and to 0 (must be false) for FTF
+RunManagerMT: Requested UI commands: 
+    
+%MSG-e GetByLabelWithoutRegistration:  HectorProducer:LHCTransport  Run: 1 Event: 1
+::getByLabel without corresponding call to consumes or mayConsumes for this module.
+  type: edm::HepMCProduct
+  module label: generator
+  product instance name: ''
+  process name: ''
+
+%MSG
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Local thread RunManagerKernel version Name: geant4-10-00-patch-03 [MT]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Initailised with TestBeam = 0 Emin = 0.01 MeV and History flag 0
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: with 8 calorimetric volumes
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Calorimeter volume 0 CALO LV 0x7f3f46469d80 at level 3 with 4 neighbours
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 0 BEAM LV 0x7f3f4646a080 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 1 Tracker LV 0x7f3f46469d00 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 2 MUON LV 0x7f3f46469f80 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 3 NotFound LV 0 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Calorimeter volume 1 VCAL LV 0x7f3f4646a580 at level 3 with 3 neighbours
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 0 BEAM2 LV 0x7f3f4646a300 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 1 MUON LV 0x7f3f46469f80 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 2 NotFound LV 0 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Calorimeter volume 2 MBAT LV 0x7f3f43a97d80 at level 6 with 1 neighbours
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 0 MB LV 0x7f3f438e0700 at level 4
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Calorimeter volume 3 MBBTC LV 0x7f3f43a97e00 at level 6 with 1 neighbours
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 0 MB LV 0x7f3f438e0700 at level 4
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Calorimeter volume 4 MBBT_R1P LV 0x7f3f43a49880 at level 6 with 1 neighbours
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 0 MB LV 0x7f3f438e0700 at level 4
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Calorimeter volume 5 MBBT_R1M LV 0x7f3f4397c200 at level 6 with 1 neighbours
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 0 MB LV 0x7f3f438e0700 at level 4
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Calorimeter volume 6 CAST LV 0x7f3f438f8180 at level 4 with 6 neighbours
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 0 BEAM2 LV 0x7f3f4646a300 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 1 BSC2 LV 0x7f3f4646a380 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 2 OQUA LV 0x7f3f4646a980 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 3 CastorF LV 0x7f3f4646a800 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 4 CastorB LV 0x7f3f4646a880 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 5 NotFound LV 0 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloTrkProcessing: Calorimeter volume 7 ZDC LV 0x7f3f4646aa00 at level 3 with 1 neighbours
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+                   Element 0 NotFound LV 0 at level 3
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: Minimum energy of track for saving it 1 GeV
+        Use of HitID Map 0
+        Check last 25 before saving the hit
+        Correct TOF globally by 0 ns (Flag =0)
+        Save hits recorded before 10000 ns and if energy is above 0 MeV (for depth 0) or 0 MeV (for nonzero depths); Time Slice Unit 1 Ignore TrackID Flag 0
+%MSG
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+Creating CastorNumberingScheme
+%MSG
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CastorSD: updates numbering scheme for CastorFI
+%MSG
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+***************************************************
+*                                                 *
+* Constructing a CastorSD  with name CastorFI
+*                                                 *
+***************************************************
+%MSG
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CastorSD:: LogicalVolume pointers
+0x7f3f44210000 for C3EF; 0x7f3f44210200 for C3HF; 0x7f3f44210100 for C4EF; 0x7f3f44210300 for C4HF; 0x7f3f438f8180 for CAST. 
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: Minimum energy of track for saving it 1 GeV
+        Use of HitID Map 0
+        Check last 25 before saving the hit
+        Correct TOF globally by 0 ns (Flag =0)
+        Save hits recorded before 500 ns and if energy is above 0.015 MeV (for depth 0) or 0 MeV (for nonzero depths); Time Slice Unit 1 Ignore TrackID Flag 0
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: Minimum energy of track for saving it 1 GeV
+        Use of HitID Map 0
+        Check last 25 before saving the hit
+        Correct TOF globally by 0 ns (Flag =0)
+        Save hits recorded before 500 ns and if energy is above 0.01 MeV (for depth 0) or 0 MeV (for nonzero depths); Time Slice Unit 1 Ignore TrackID Flag 0
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: Minimum energy of track for saving it 1 GeV
+        Use of HitID Map 0
+        Check last 25 before saving the hit
+        Correct TOF globally by 0 ns (Flag =0)
+        Save hits recorded before 500 ns and if energy is above 0 MeV (for depth 0) or 0 MeV (for nonzero depths); Time Slice Unit 1 Ignore TrackID Flag 0
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: Minimum energy of track for saving it 1 GeV
+        Use of HitID Map 0
+        Check last 25 before saving the hit
+        Correct TOF globally by 0 ns (Flag =0)
+        Save hits recorded before 500 ns and if energy is above 0 MeV (for depth 0) or 0 MeV (for nonzero depths); Time Slice Unit 1 Ignore TrackID Flag 0
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: Minimum energy of track for saving it 1 GeV
+        Use of HitID Map 0
+        Check last 25 before saving the hit
+        Correct TOF globally by 0 ns (Flag =0)
+        Save hits recorded before 2000 ns and if energy is above 0 MeV (for depth 0) or 0 MeV (for nonzero depths); Time Slice Unit 1 Ignore TrackID Flag 0
+%MSG
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+ZdcSD: updates numbering scheme for ZDCHITS
+%MSG
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+***************************************************
+*                                                 *
+* Constructing a ZdcSD  with name ZDCHITS   *
+*                                                 *
+***************************************************
+%MSG
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+
+Use of shower library is set to 1
+Use of Shower hits method is set to 0
+%MSG
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+
+Energy Threshold Cut set to 10 (GeV)
+%MSG
+ New QGSP_FTFP_BERT physics list, replaces LEP with FTF/P for p/n/pi (/K?)  Thresholds: 
+    1) between BERT  and FTF/P over the interval 6 to 8 GeV. 
+    2) between FTF/P and QGS/P over the interval 12 to 25 GeV. 
+  -- quasiElastic was asked to be 1
+     Changed to 1 for QGS  and to 0 (must be false) for FTF
+
+phot:   for  gamma, applyCuts: 1     SubType= 12
+      LambdaPrime table from 200 keV to 10 TeV in 54 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       PhotoElectric :  Emin=        0 eV    Emax=       10 TeV   AngularGenSauterGavrila
+
+compt:   for  gamma, applyCuts: 1     SubType= 13
+      Lambda table from 100 eV  to 1 MeV in 28 bins, spline: 1
+      LambdaPrime table from 1 MeV to 10 TeV in 49 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       Klein-Nishina :  Emin=        0 eV    Emax=       10 TeV
+
+conv:   for  gamma, applyCuts: 1     SubType= 14
+      Lambda table from 1.022 MeV to 10 TeV in 140 bins, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        BetheHeitler :  Emin=        0 eV    Emax=       80 GeV
+     BetheHeitlerLPM :  Emin=       80 GeV   Emax=       10 TeV
+
+msc:   for e-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          UrbanMsc93 :  Emin=        0 eV    Emax=      100 MeV  Table with 42 bins Emin=    100 eV    Emax=    100 MeV
+        WentzelVIUni :  Emin=      100 MeV   Emax=       10 TeV  Table with 35 bins Emin=    100 MeV   Emax=     10 TeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+
+---------------------------------------------------
+                           Hadronic Processes for GenericIon
+
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV  ---> 4 GeV
+        Model:                      FTFP: 2 GeV ---> 100 TeV
+     Cr_sctns: Glauber-Gribov nucleus nucleus: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for anti_neutron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for anti_proton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 2.88022e+295 J  
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for e+
+
+  Process: positronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for e-
+
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for gamma
+
+  Process: photonNuclear
+        Model:            BertiniCascade: 0 eV  ---> 3.5 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            PhotoNuclearXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for kaon+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: kaon+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 6 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 8 GeV
+     Cr_sctns:  ChipsKaonPlusInelasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for kaon-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: kaon-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 6 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 8 GeV
+     Cr_sctns: ChipsKaonMinusInelasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for lambda
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: lambdaInelastic
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+        Model:                      FTFP: 2 GeV ---> 100 TeV
+     Cr_sctns:   ChipsHyperonInelasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for mu-
+
+  Process: muMinusCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for neutron
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:     ChipsNeutronElasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: neutronInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 6 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 8 GeV
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: nCapture
+        Model:               nRadCapture: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaCaptureXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for pi+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 1.0001 GeV
+        Model:           hElasticGlauber: 1 GeV ---> 100 TeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: pi+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 6 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 8 GeV
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections 
+                           below 91 GeV, Glauber-Gribov above 
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections 
+                           below 91 GeV, Glauber-Gribov above 
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for pi-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 1.0001 GeV
+        Model:           hElasticGlauber: 1 GeV ---> 100 TeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: pi-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 6 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 8 GeV
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections 
+                           below 91 GeV, Glauber-Gribov above 
+     Cr_sctns:      G4CrossSectionPairGG: 0 eV  ---> 100 TeV
+                         G4CrossSectionPairGG: G4PiNuclearCrossSection cross sections 
+                           below 91 GeV, Glauber-Gribov above 
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for proton
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:      ChipsProtonElasticXS: 0 eV  ---> 100 TeV
+     Cr_sctns:            GheishaElastic: 0 eV  ---> 100 TeV
+
+  Process: protonInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 6 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 8 GeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:       Barashenkov-Glauber: 0 eV  ---> 100 TeV
+     Cr_sctns:          GheishaInelastic: 0 eV  ---> 100 TeV
+
+================================================================
+%MSG-i ForwardSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CastorSD::initRun: Using Castor Shower Library 
+
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: CastorFI store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: EcalHitsEB store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: EcalHitsEE store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: EcalHitsES store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: HcalHits store 0 hits recorded with 0 track IDs not given properly and 0 hits not passing cuts
+%MSG
+%MSG-i CaloSim:  OscarMTProducer:g4SimHits Run: 1 Event: 1
+CaloSD: ZDCHITS store 21 hits recorded with 0 track IDs not given properly and 4 hits not passing cuts
+%MSG
+MemoryReport> Peak virtual size 771.438 Mbytes
+ Key events increasing vsize: 
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[1] run: 1 lumi: 1 event: 1  vsize = 771.438 deltaVsize = 0 rss = 464.301 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[1] run: 1 lumi: 1 event: 1  vsize = 771.438 deltaVsize = 0 rss = 464.301 delta = 0
